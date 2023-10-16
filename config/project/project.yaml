@@ -1,0 +1,22 @@
+dateModified: 1697473916
+email:
+  fromEmail: rachfairchild.dev@gmail.com
+  fromName: tutorial
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    5f228bbe-c3b2-4be5-b011-ebef72fd2071: tutorial # tutorial
+    34c48500-e087-44d7-9b6a-1e4cd872e46c: Common # Common
+    dc4f0b2d-4c18-45ac-b6ac-7339e85774d4: tutorial # tutorial
+system:
+  edition: solo
+  live: true
+  name: tutorial
+  schemaVersion: 4.5.3.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
