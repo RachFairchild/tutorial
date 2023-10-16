@@ -1,13 +1,34 @@
-dateModified: 1697473916
+dateModified: 1697481309
 email:
   fromEmail: rachfairchild.dev@gmail.com
   fromName: tutorial
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  hardDisk:
+    hasUrls: true
+    name: 'Hard Disk'
+    settings:
+      path: '@webroot/uploads/images'
+    type: craft\fs\Local
+    url: '@web/uploads/images'
 meta:
   __names__:
+    5af238ad-a4b5-4c32-a1fe-ed522d2a9c27: Post # Post
     5f228bbe-c3b2-4be5-b011-ebef72fd2071: tutorial # tutorial
+    6a78c6e9-157a-4563-850e-c6bb81d9e062: 'Post Categories' # Post Categories
+    6fcc2a2f-5d56-4834-b7d4-dbbbcd723701: Image # Image
+    9ddd186b-26bd-4f9b-82f0-303672c79fa0: Blog # Blog
     34c48500-e087-44d7-9b6a-1e4cd872e46c: Common # Common
+    441ffd9b-15d2-4847-9802-ce7ddd4b5ef1: Text # Text
+    585a908e-edef-4144-ac08-830dac3a8b7a: 'Feature Image' # Feature Image
+    4161eda0-4577-4c65-9503-fbd915e3ec47: Images # Images
+    b02d46ea-586a-4e25-84b5-b5902c401e85: Blog # Blog
     dc4f0b2d-4c18-45ac-b6ac-7339e85774d4: tutorial # tutorial
+    dc571ad6-13bc-4432-9494-a95c462a01b5: Summary # Summary
+    e8cb37e4-4bd6-47b3-9e49-1dadc436e939: Image # Image
+    f15470f1-2551-486f-a1b3-edf715a7ff9c: Topics # Topics
+    fbf36878-aa03-44f2-993c-709684cea188: 'Post Content' # Post Content
+    ff443794-b12b-4ed3-bfc3-8f4105a1d018: Text # Text
 system:
   edition: solo
   live: true
